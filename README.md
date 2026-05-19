@@ -44,7 +44,7 @@ The model decomposes precision matrices into:
 The figure below illustrates the structured organization of the differential precision matrices estimated by Multi-DiffNet for each condition group \(k\). Diagonal blocks correspond to intra-omics and intra-tissue conditional dependency networks, while off-diagonal blocks capture cross-omics and cross-tissue interactions.
 
 <p align="center">
-  <img src="figures/model_outputs.png" width="650">
+  <img src="figures/model_output.png" width="650">
 </p>
 
 ---
@@ -77,6 +77,6 @@ python simulation/main_test.py
 
 This script:
 
-- generates one simulated multi-group multi-omics dataset,
+- generates one simulated multi-group multi-omics mutli-tissue dataset,
 - fits Multi-DiffNet,
 - estimates sparse and latent components.
