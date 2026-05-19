@@ -1,5 +1,5 @@
 """
-Input/output utilities for DiffNet-Latent.
+Input/output utilities for Multi-DiffNet.
 """
 
 from __future__ import annotations
