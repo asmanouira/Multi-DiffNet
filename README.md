@@ -29,7 +29,7 @@ The model decomposes precision matrices into:
 
 - a sparse baseline interaction network,
 - sparse differential perturbations,
-- a shared low-rank latent component capturing hidden biological factors.
+- a shared low-rank latent component.
 
 ---
 
@@ -44,7 +44,7 @@ The model decomposes precision matrices into:
 The figure below illustrates the structured organization of the differential precision matrices estimated by Multi-DiffNet for each condition group \(k\). Diagonal blocks correspond to intra-omics and intra-tissue conditional dependency networks, while off-diagonal blocks capture cross-omics and cross-tissue interactions.
 
 <p align="center">
-  <img src="figures/model_output.png" width="650">
+  <img src="figures/model_output.png" width="450">
 </p>
 
 ---
