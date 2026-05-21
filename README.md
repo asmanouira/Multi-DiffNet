@@ -80,3 +80,21 @@ This script:
 - generates one simulated multi-group multi-omics mutli-tissue dataset,
 - fits Multi-DiffNet,
 - estimates sparse and latent components.
+
+# Tutorial notebook
+
+A complete end-to-end tutorial on simulated data is available in:
+
+```text
+tutorial_simulated_data.ipynb
+```
+
+The tutorial demonstrates how to:
+
+- simulate a structured multi-omics and multi-tissue dataset,
+- save and reload data using the `MultiModalData` framework,
+- fit the Multi-DiffNet model,
+- inspect estimated sparse and latent components,
+- extract intra-omics and cross-omics network blocks,
+- visualize common and group-specific differential networks,
+- export inferred networks and figures.
